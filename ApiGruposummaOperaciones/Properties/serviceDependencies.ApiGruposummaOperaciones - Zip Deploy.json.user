@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2025-01-24T19:21:00.7988755Z"
+    }
+  },
+  "parameters": {
+    "ApiGruposummaOperaciones.resourceGroupLocation": {
+      "Name": "ApiGruposummaOperaciones.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "ApiGruposummaOperaciones.resourceGroupName": {
+      "Name": "ApiGruposummaOperaciones.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Gruposumma"
+    },
+    "ApiGruposummaOperaciones.resourceName": {
+      "Name": "ApiGruposummaOperaciones.resourceName",
+      "Type": null,
+      "Value": "ApiGruposummaOperaciones"
+    },
+    "ApiGruposummaOperaciones.subscriptionId": {
+      "Name": "ApiGruposummaOperaciones.subscriptionId",
+      "Type": "subscription",
+      "Value": "682cc619-e3ea-4650-9490-c0d75ffb7ec1"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Gruposumma"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "682cc619-e3ea-4650-9490-c0d75ffb7ec1"
+    }
+  }
+}

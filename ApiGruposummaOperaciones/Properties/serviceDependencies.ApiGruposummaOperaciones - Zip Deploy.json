@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://apigruposummaoperaciones.azure-api.net/Gruposummaoperaciones",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/ApiGruposummaOperaciones/apis/GruposummaOperacionesDeals",
+      "type": "apis.azure"
+    }
+  }
+}

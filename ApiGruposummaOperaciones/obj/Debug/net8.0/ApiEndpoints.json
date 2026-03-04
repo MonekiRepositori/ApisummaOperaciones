@@ -1,0 +1,711 @@
+[
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.CommentsController",
+    "Method": "Create",
+    "RelativePath": "api/Comments/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.CreateCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.CommentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Comments/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.CommentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Comments/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.CommentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Comments/GetByIdComments/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.CommentsController",
+    "Method": "Update",
+    "RelativePath": "api/Comments/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "comentarioNuevo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.ForeignCurrencysController",
+    "Method": "Create",
+    "RelativePath": "api/ForeignCurrencys/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currency",
+        "Type": "ApiGruposummaOperaciones.Models.Foreigncurrencys",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.ForeignCurrencysController",
+    "Method": "Delete",
+    "RelativePath": "api/ForeignCurrencys/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.ForeignCurrencysController",
+    "Method": "GetAll",
+    "RelativePath": "api/ForeignCurrencys/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.ForeignCurrencysController",
+    "Method": "GetById",
+    "RelativePath": "api/ForeignCurrencys/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.ForeignCurrencysController",
+    "Method": "Update",
+    "RelativePath": "api/ForeignCurrencys/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "currency",
+        "Type": "ApiGruposummaOperaciones.Models.Foreigncurrencys",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.LoginUserController",
+    "Method": "Login",
+    "RelativePath": "Api/LoginUser/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.LoginUserController",
+    "Method": "Refresh",
+    "RelativePath": "Api/LoginUser/RefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenRequest",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.RefreshTokenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.Operation",
+    "Method": "Create",
+    "RelativePath": "api/Operation/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "creationOperationDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.CreationOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.Operation",
+    "Method": "Delete",
+    "RelativePath": "api/Operation/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.Operation",
+    "Method": "GetAll",
+    "RelativePath": "api/Operation/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.Operation",
+    "Method": "GetById",
+    "RelativePath": "api/Operation/GetByIdOperaciones/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.Operation",
+    "Method": "Update",
+    "RelativePath": "api/Operation/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateOperationDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.CreationOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.PlatformController",
+    "Method": "Create",
+    "RelativePath": "api/Platform/CreatePlatform",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "platformDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.PlatformDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.PlatformController",
+    "Method": "Delete",
+    "RelativePath": "api/Platform/DeletePlataforma/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.PlatformController",
+    "Method": "GetAll",
+    "RelativePath": "api/Platform/GetALLPlataforma",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.PlatformController",
+    "Method": "Update",
+    "RelativePath": "api/Platform/UpdatePlataforma/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "platform",
+        "Type": "ApiGruposummaOperaciones.Models.Platform",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RegisterUserController",
+    "Method": "Delete",
+    "RelativePath": "api/RegisterUser/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RegisterUserController",
+    "Method": "GetAll",
+    "RelativePath": "api/RegisterUser/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RegisterUserController",
+    "Method": "GetbyId",
+    "RelativePath": "api/RegisterUser/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RegisterUserController",
+    "Method": "Register",
+    "RelativePath": "api/RegisterUser/RegisterUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registeruserdto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RegisterUserController",
+    "Method": "Update",
+    "RelativePath": "api/RegisterUser/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "registerUserDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RoleController",
+    "Method": "Create",
+    "RelativePath": "api/Role/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.RoleCrudDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/Role/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RoleController",
+    "Method": "GetById",
+    "RelativePath": "api/Role/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/Role/RoleGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/Role/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "ApiGruposummaOperaciones.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusoperationController",
+    "Method": "GetOperacionesCanceladas",
+    "RelativePath": "api/Statusoperation/Canceled",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusoperationController",
+    "Method": "Create",
+    "RelativePath": "api/Statusoperation/CreateStatusOperation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusoperation",
+        "Type": "ApiGruposummaOperaciones.Models.StatusOperation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusoperationController",
+    "Method": "Delete",
+    "RelativePath": "api/Statusoperation/DeleteStatusOperation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusoperationController",
+    "Method": "GetById",
+    "RelativePath": "api/Statusoperation/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusoperationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Statusoperation/StatusOperationGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusoperationController",
+    "Method": "Update",
+    "RelativePath": "api/Statusoperation/UpdateStatusOperation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "statusoperation",
+        "Type": "ApiGruposummaOperaciones.Models.StatusOperation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.StatusTicketController",
+    "Method": "GetAll",
+    "RelativePath": "api/StatusTicket/StatusTicketGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.TicketsController",
+    "Method": "Create",
+    "RelativePath": "api/Tickets/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.CreateTicketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.TicketsController",
+    "Method": "Delete",
+    "RelativePath": "api/Tickets/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.TicketsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tickets/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.TicketsController",
+    "Method": "GetById",
+    "RelativePath": "api/Tickets/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.TicketsController",
+    "Method": "Update",
+    "RelativePath": "api/Tickets/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.UpdateTicketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.UploadFilesDealAndFed",
+    "Method": "UpdatePdfFiles",
+    "RelativePath": "api/UploadFilesDealAndFed/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFilesDto",
+        "Type": "ApiGruposummaOperaciones.ModelsDto.UploadFilesDeal_and_FedDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.UserController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/User/ListUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGruposummaOperaciones.Controllers.CallOptionDealsController",
+    "Method": "GetAll",
+    "RelativePath": "CallOptionDealsGetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
